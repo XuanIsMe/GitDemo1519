@@ -14,6 +14,7 @@
 		64828FAF1C80226A009C0866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64828FAE1C80226A009C0866 /* Assets.xcassets */; };
 		64828FB21C80226A009C0866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64828FB01C80226A009C0866 /* LaunchScreen.storyboard */; };
 		64828FC01C8026F9009C0866 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 64828FBF1C8026F9009C0866 /* Student.m */; };
+		64828FBC1C8025AC009C0866 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 64828FBB1C8025AC009C0866 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		64828FB31C80226A009C0866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64828FBE1C8026F9009C0866 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		64828FBF1C8026F9009C0866 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		64828FBA1C8025AC009C0866 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		64828FBB1C8025AC009C0866 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				64828FBD1C8026DB009C0866 /* B */,
+				64828FB91C802591009C0866 /* A */,
 				64828FA51C80226A009C0866 /* AppDelegate.h */,
 				64828FA61C80226A009C0866 /* AppDelegate.m */,
 				64828FA81C80226A009C0866 /* ViewController.h */,
@@ -90,6 +94,15 @@
 				64828FBF1C8026F9009C0866 /* Student.m */,
 			);
 			name = B;
+            sourceTree = "<group>";
+        };
+		64828FB91C802591009C0866 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				64828FBA1C8025AC009C0866 /* Person.h */,
+				64828FBB1C8025AC009C0866 /* Person.m */,
+			);
+			name = A;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +177,7 @@
 			files = (
 				64828FAA1C80226A009C0866 /* ViewController.m in Sources */,
 				64828FA71C80226A009C0866 /* AppDelegate.m in Sources */,
+				64828FBC1C8025AC009C0866 /* Person.m in Sources */,
 				64828FA41C80226A009C0866 /* main.m in Sources */,
 				64828FC01C8026F9009C0866 /* Student.m in Sources */,
 			);
