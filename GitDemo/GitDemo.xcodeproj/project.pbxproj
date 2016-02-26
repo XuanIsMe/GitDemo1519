@@ -18,6 +18,7 @@
 		64828FC31C803098009C0866 /* Person1.m in Sources */ = {isa = PBXBuildFile; fileRef = 64828FC21C803098009C0866 /* Person1.m */; };
 		64828FC61C8030DD009C0866 /* Student2.m in Sources */ = {isa = PBXBuildFile; fileRef = 64828FC51C8030DD009C0866 /* Student2.m */; };
 		64828FCE1C803293009C0866 /* B2.m in Sources */ = {isa = PBXBuildFile; fileRef = 64828FCD1C803293009C0866 /* B2.m */; };
+		64828FCA1C80324B009C0866 /* A1.m in Sources */ = {isa = PBXBuildFile; fileRef = 64828FC91C80324B009C0866 /* A1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		64828FC51C8030DD009C0866 /* Student2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student2.m; sourceTree = "<group>"; };
 		64828FCC1C803293009C0866 /* B2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B2.h; sourceTree = "<group>"; };
 		64828FCD1C803293009C0866 /* B2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B2.m; sourceTree = "<group>"; };
+		64828FC81C80324B009C0866 /* A1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A1.h; sourceTree = "<group>"; };
+		64828FC91C80324B009C0866 /* A1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				64828FCB1C803287009C0866 /* B2 */,
+				64828FC71C803240009C0866 /* A1 */,
 				64828FBD1C8026DB009C0866 /* B */,
 				64828FB91C802591009C0866 /* A */,
 				64828FA51C80226A009C0866 /* AppDelegate.h */,
@@ -126,6 +130,15 @@
 				64828FCD1C803293009C0866 /* B2.m */,
 			);
 			name = B2;
+            sourceTree = "<group>";
+        };
+		64828FC71C803240009C0866 /* A1 */ = {
+			isa = PBXGroup;
+			children = (
+				64828FC81C80324B009C0866 /* A1.h */,
+				64828FC91C80324B009C0866 /* A1.m */,
+			);
+			name = A1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64828FC31C803098009C0866 /* Person1.m in Sources */,
+				64828FCA1C80324B009C0866 /* A1.m in Sources */,
 				64828FAA1C80226A009C0866 /* ViewController.m in Sources */,
 				64828FA71C80226A009C0866 /* AppDelegate.m in Sources */,
 				64828FCE1C803293009C0866 /* B2.m in Sources */,
